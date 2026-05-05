@@ -5,8 +5,8 @@ namespace AnnuaireEntreprise.ViewModels;
 public partial class BaseViewModel : ObservableObject
 {
     [ObservableProperty]
-    private bool estOccupe;
+    public partial bool EstOccupe { get; set; }
 
     [ObservableProperty]
-    private string titre = string.Empty;
+    public partial string Titre { get; set; } = string.Empty;
 }
