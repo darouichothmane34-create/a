@@ -1,7 +1,7 @@
 <Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
-    <TargetFrameworks>net8.0-windows10.0.19041.0</TargetFrameworks>
-    <OutputType>Exe</OutputType>
+    <TargetFramework>net8.0-windows10.0.19041.0</TargetFramework>
+    <OutputType>WinExe</OutputType>
     <RootNamespace>AnnuaireEntreprise</RootNamespace>
     <UseMaui>true</UseMaui>
     <SingleProject>true</SingleProject>
@@ -26,5 +26,8 @@
     <PackageReference Include="Microsoft.EntityFrameworkCore" Version="8.0.5" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite" Version="8.0.5" />
     <PackageReference Include="Microsoft.Extensions.Logging.Debug" Version="8.0.0" />
+    <PackageReference Include="Microsoft.Maui.Controls" Version="8.0.100" />
+    <PackageReference Include="Microsoft.Maui.Controls.Compatibility" Version="8.0.100" />
+    <PackageReference Include="Microsoft.Maui.Essentials" Version="8.0.100" />
   </ItemGroup>
 </Project>
