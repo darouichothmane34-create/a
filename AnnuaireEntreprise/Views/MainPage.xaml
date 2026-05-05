@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AnnuaireEntreprise.Views.MainPage"
+             Title="Annuaire d'entreprise">
+
+    <VerticalStackLayout Padding="24" Spacing="12">
+        <Label Text="Projet Annuaire d'entreprise"
+               FontSize="24"
+               FontAttributes="Bold" />
+
+        <Label Text="Étape 1 terminée : initialisation du projet MAUI et architecture." />
+    </VerticalStackLayout>
+
+</ContentPage>
